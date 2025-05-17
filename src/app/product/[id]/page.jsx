@@ -6,7 +6,7 @@ export default async function ProductPage({ params}){
     return (
         <div>
             <h1>{product.title}</h1>
-            <img src={product.image}/>
+            <img src={product.image} className="h-40"/>
             <p>{product.description}</p>
             <p>{product.price}</p>
         </div>
