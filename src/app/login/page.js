@@ -7,8 +7,6 @@ export default function LoginPage() {
 	const [error, setError] = useState("");
 	const [loading, setLoading] = useState(false);
 
-	// Platzi Fake Store API login endpoint
-	// Docs: https://fakeapi.platzi.com/docs/authentication
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		setError("");
