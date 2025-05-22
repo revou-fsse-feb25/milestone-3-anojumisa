@@ -1,4 +1,4 @@
-import ProductCard from "@/component/ProductCard";
+import ProductCard from "../component/ProductCard";
 
 export default async function Home({ searchParams }) {
 	const searchTerm = searchParams?.search || "";
